@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html class="top-to-bottom">
+<head>
+<!--  Clicker Script  -->
+<link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+
+  <title>Tydzień Kultury Chrześcijañskiej</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  
+   <link rel="stylesheet" type="text/css" href="custom1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+  <script src="custom.js"></script>
+  
+<script src="jquery.scrollTo.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+
+
+<body >
+
+
+
+<!--Menu GÃ³rne/Navbar-->
+<nav class="navbar navbar-default navbar-fixed-top" style="background: #1F3C8F; " >
+    
+  <div class="container-fluid">
+     
+       <div class="navbar-header" >
+         <div  class="navbar-toggle bt" data-toggle="collapse" data-target="#myNavbar" >
+         <button type="button" class="bt btn btn-info btn-md">
+         <span  class="glyphicon glyphicon-list"></span></button>
+         </div>
+
+         <div class="nav navbar-brand">
+            <a class="bt" href="#tkch"><span  class="glyphicon glyphicon-home">
+            </span></a>
+         </div>
+
+           
+           
+        </div>
+        <div class="col-xs-4"></div>
+        <div class="collapse navbar-collapse col-xs-8" id="myNavbar">
+          <ul class="nav navbar-nav">
+            
+            <li>........</li>
+            <li><a class="bt" href="#start">START</a></li>
+            <li><a class="bt" href="#aktualnosci">AKTUALNOŚCI</a></li>
+            <li><a class="bt" href="#galeria">GALERIA</a></li>
+            <li><a class="bt" href="#warto_przeczytac">WARTO PRZECZYTAĆ</a></li>
+            <li><a class="bt" href="#linki">LINKI</a></li>
+             <li><a class="bt" data-toggle="modal" data-target="#myModal">KONTAKT</a></li>
+          </ul>
+        </div>
+
+      </div>
+  </div>
+</nav>
+
+
+
+<!-- kontakt-->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Kontakt</h4>
+      </div>
+      <div class="modal-body">
+        <h2>Jeżeli masz pytanie,<br> zadzwoń pod numer </h2><h2 style="color:#5CB85C;">tel: 696 871 999 </h2>
+        <h2>lub</h2>
+        <h2 style="color:#5CB85C;">tel: 504 844 069. </h2>
+         <h2>Możesz też napisać na <br>adres e-mail:</h2>
+         <h2 style="color:#5CB85C;">@: kechkatowice@gmail.com</h2>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--zaproszenie--
+  <!-- Modal -->
+  <div class="modal fade" id="zapro" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4> </h4>
+        </div>
+        <div class="modal-body">
+            <center><img src="zapro.jpg" />
+          <h2 id="click" style="  font-family: 'Clicker Script', cursive; font-size: 270%;">Zapraszamy na cotygodniowe spotkania<br> z Biblią.<br> Odbywają się one w Katowicach,<br> w Miejskim Domu Kultury na Giszowcu;<br> Plac pod Lipami 1, sala nr. 28, piętro 2.;<br> w każdą niedziele o godzinie 17.00.</h2></center>
+          <img src="kech.jpg" class="img-responsive kech"/>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+<!--Facebook!-->
+<div  class="navbar-fixed-top">
+             <div id="caly">
+                <div id="blo2"></div>
+                  <a href="https://web.facebook.com/tkch.giszowiec" data-placement="right" data-toggle="tooltip" title="Zapraszamy na FB!">
+                  <div id="uchwyt"> 
+                  </div></a> 
+               
+                 
+                </div>
+              </div>
+</div>              
+
+
+<!--nagÅ‚Ã³wek/page-header-->
+<div class="container" id="tkch" >
+  <div class="page-header">
+      <center><a><button type="button" class="btn  bt1 btn-default" data-toggle="modal" data-target="#zapro">  <center><img class="zapro1" src="zapro1.PNG" /></center></button></a></center>
+      <div>
+        <center><br><img class="img-responsive" src="graphics/goral.jpg" ></center>
+        <center><br><p class="down">Tydzień Kultury Chrześcijańskiej<br></p></center>
+      </div>
+  </div>
+</div>
+
+
+<!--Świadectwa-->  
+  <nav class=" navbar-fixed-top">
+<div class="container-fluid ">
+          <ul class="nav navbar-nav">
+            <li>      
+              <div id="cal">
+                <div id="blo1">
+                  <div id="blok_na_zawartos">
+                    <div id="zawartos">
+                      <p>Świadectwo Sary z Giszowca</p>
+                      <audio controls >
+                        <source src="Sara_z_Giszowca.mp3" type='audio/mpeg'>
+                      </audio>
+                      <p>Świadectwo Damiana - "Być wolnym człowiekiem</p>
+                      <audio controls >
+                        <source src="Damian_sw.mp3" type='audio/mpeg'>
+                      </audio>
+
+                    </div>
+                  </div>
+                </div>
+
+               <div id="blo2">
+                <div id="uchwy">Warto posłuchać</div>
+              </div>
+              </div>
+            </li>
+          </ul>
+</div>
+
+</nav>
+
+
+
+<!--podstrony-->
+<!--Start/Witamy-->
+<div id="start" >
+   <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+         <div align="center">
+         <h1 align="center">Witamy serdecznie na naszej stronie!</h1>
+         </div>
+      <div class="tab-content">
+  
+
+  <!--Start1/Witaj!-->   
+         <div id="start1" class="tab-pane fade in active">
+               <h3 class="txt1">Mamy nadzieję, <br>że strona ta będzie przedłużeniem trwającego <br>kilka dni Tygodnia Kultury Chrześcijańskiej <br>oraz stanie się pomocą dla każdego, <br>kto szuka w życiu<br> prawdy, sensu, nadziei.</h3>
+               <br>
+             <img src="g3.JPG" class="photo1">
+         </div>
+   
+  <!--Start2/o stronie-->             
+         <div id="start2" class="txt1 tab-pane fade">
+            <div class="col-md-6">
+            <img  src="g2.JPG" class="photo"/>
+            </div>
+            <div class="col-md-6">
+                  <h3>W <a  style="color:#5BC0DE;" >aktualnościach</a> mogą Państwo znaleść najnowsze informacje,<br> dotyczące corocznych wydarzeń i spotkań, </h3> <h3> w <a style="color:#D9534F;"> galerii </a> zobaczyć, jak to było z nami w Katowicach w poprzednich latach,<h3> a na pozostałych stronach znaleść dla siebie coś na "dzisiaj".<br> Serdecznie zapraszamy do zadawania pytań, kierowania spostrzeżeń.<br> Na każdy kontakt oczekujemy z radością!</h3>
+            </div> 
+         </div>
+
+   <!--Start3/TKCH-1-->      
+         <div id="start3" class="txt2 tab-pane fade">
+                  <h3>Polska nazywana jest krajem chrześcijańskim.<br> Zdecydowana większość ludzi nazywa siebie chrześcijanami, przynależy do jakiegoś kościoła.<br> Wszyscy wiedzą, lepiej lub gorzej, kim był Jezus.</h3>
+                  <h3> Organizując Tydzień Kultury Chrześcijańskiej, chcemy zwrócić uwagę na fundament wiary chrześcijańskiej - na Boże Słowo zapisane w Biblii. Dla nas jest ono jedynym autorytetem i fundamentem tego, w co wierzymy. W trakcie kilku dni, które spędzamy w porze letniej na Giszowcu - dzielnicy Katowic, mówimy o żywym Bogu, prawdziwym i obecnym w codziennym życiu człowieka.</h3>
+               <a style="margin-left: 800px;" href="#start4" data-toggle="pill" class="btn btn-info btn-lg">Dalej<span class="glyphicon glyphicon-arrow-right"></span> </a>
+         </div>
+   <!--Start4/TKCH-2-->       
+         <div id="start4" class="txt2 tab-pane fade">
+                  <h3>  Chcemy, aby każdy mógł‚ usłyszeć niczym niezafałszowaną prawdę, pochodzącą wprost z Biblii, czyli od Boga. Od czwartku do niedzieli ze sceny w parku można będzie usłyszeć koncerty muzyki, która oprócz wartości artystycznej, niesie także przesłanie, zobaczyć występy teatralne, usłyszeć historie z życia wzięte, otrzymać darmową, wartościową literaturę.</h3> <h3>Chcemy, drogi czytelniku, aby te wszystkie rzeczy pomogły i Tobie zrozumieć, że Jezus nie jest religią, a ratunkiem, którego potrzebujesz - prawdziwym życiem także dla Ciebie.</h3>
+                  <a  href="#start3" data-toggle="pill" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-arrow-left"></span> Wstecz</a>
+         </div>
+
+   <!--Przyciski/Start-->
+   <center>
+   <ul class="pagination">
+    <li class="active">
+        <a data-toggle="pill" href="#start1">Witaj!</a></li>
+    <li><a data-toggle="pill" href="#start2">O stronie</a></li>
+    <li><a data-toggle="pill" href="#start3">TKCh</a></li>
+   </ul>
+   </center>
+
+<!--aktualnoÅ›ci-->
+
+	<div id="aktualnosci" class=" container-fluid">
+        <div class="col-md-2"></div>
+        <div class="col-md-8" id="myNawbar">
+            <h1 style="color: #1F3C8F;">V TYDZIEŃ KULTURY CHRZEŚCIJAŃSKIEJ</h1>
+            <h2>    Mamy zaszczyt zaprosić na najbliższy Tydzień Kultury Chrześcijańskiej. <br> Odbędzie się on w dniach 17-20 sierpnia 2017r.</h2>
+            <img src="kwiaty.JPG" class="img-rounded img-responsive kwiaty" />
+            <h4>Szczegółowe informacje juz niedługo.</h4>
+        </div>
+	   
+     
+        
+      
+    </div>
+     
+
+
+
+
+
+<!--galeria-->
+<div id="galeria" class=" container-fluid">
+  <h1>Galeria</h1>
+    <div class="pad">
+
+ <div class="col-md-3">
+             
+            <div id="animacja">
+              <div id="a4"><a style="text-decoration: none;" href="galeria/gisz_16/index.php"><img src="giszowiec2.JPG" class="photo2 " /><div class="gisz red" align="center">Giszowiec 2016</div></a></div>
+            </div>
+          
+          
+    </div>
+
+
+      <div class="col-md-3">
+             
+            <div id="animacja">
+              <div id="a1">
+              <a class="bord" style="text-decoration: none;" href="http://kechkatowice.org/galeria/TKCH2015.html"><img src="giszowiec1.JPG" class="photo2 bord" />
+              <div class="gisz blue" align="center">Giszowiec 2015</div>
+              </a>
+              </div>
+            </div>
+          
+          
+
+    </div>
+
+      <div class="col-md-3">
+             
+            <div id="animacja">
+              <div id="a2"><a  style="text-decoration: none;" href="http://kechkatowice.org/galeria/tkch_2014.html"><img src="giszowiec5.JPG" class="photo2 " /><div class="gisz orange" align="center">Giszowiec 2014</div></a></div>
+            </div>
+          
+          
+    </div>
+
+     <div class="col-md-3">
+             
+            <div id="animacja">
+              <div id="a3"><a style="text-decoration: none;" href="http://kechkatowice.org/galeria/tydzien_kultury_giszowiec_2013.html"><img src="giszowiec2.JPG" class="photo2 " /><div class="gisz green" align="center">Giszowiec 2013</div></a></div>
+            </div>
+          
+          
+    </div>
+
+
+
+  </div>
+</div>
+ 
+ <!--warto przeczytać-->
+
+<div id="warto_przeczytac" class="container-fluid">
+   <div class="row">
+   <h1>Warto przeczytać</h1>
+   <h3>Zapraszamy do lektury książek, dostępnych online na naszej stronie </h3>
+   
+   <div class="col-md-4 col-xs-4">         
+            <a href="j_na_prze.pdf">
+               <div id="pudelko2">
+                  <div id="karta2">
+                    <div id="przod2" class="img-responive"></div>
+                  </div>
+               </div>
+            </a>
+   </div>
+
+   <div class="col-md-4 col-xs-4">
+     <a href="Przekresleni.pdf">
+               <div id="pudelko">
+                  <div id="karta">
+                    <div id="przod" class="img-responive"></div>
+                  </div>
+               </div>
+            </a>
+   </div>
+    
+<div class="col-md-4 col-xs-4">
+     <a href="krzyz_sztylet.pdf">
+               <div id="pudelko1">
+                  <div id="karta1">
+                    <div id="przod1" class="img-responive"></div>
+                  </div>
+               </div>
+            </a>
+   </div>
+
+   
+   </div></div>
+
+
+
+<!--linki-->
+<div id="linki" class="container-fluid">
+  
+  <h1>Linki</h1>
+  <p>Zapraszamy również na inne strony, które mogą być pomocą na twojej drodze do Boga.</p>
+  <table class="table table-striped">
+    
+    <tbody>
+      <tr>
+        <td></td>
+        <td>Kościół Ewangelicznych Chrześcijan w Jastrzębiu</td>
+        <td><a href="http://www.kechjastrzebie.org/index.html"> http://www.kechjastrzebie.org/</a></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Kościół Ewangelicznych Chrześcijan w Pszczynie</td>
+        <td><a href="http://www.pszczyna.kech.pl/"> http://www.pszczyna.kech.pl/</a></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Chrześcijańska Wspólnota Ewangeliczna w Bielsku-Białej</td>
+        <td><a href="http://www.chwe.pl/"> http://www.chwe.pl/</a></td>
+      </tr>
+    </tbody>
+   </table>
+   </div>
+</div>
+
+<div>
+    <!--licznik odwiedzin-->
+    <a class="licz" href='http://www.counterliczniki.com'>www.Counterliczniki.com</a> <script type='text/javascript' src='https://www.counterliczniki.com/auth.php?id=bdcabb61d2e76897cce048c13823d8fe3ee42de2'></script>
+    <script type="text/javascript" src="https://www.counterliczniki.com/pl/home/counter/277795/t/0"></script>
+</div>
+
+</body>
+
+
+</html>

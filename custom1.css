@@ -1,0 +1,570 @@
+/*
+Name of index: index.html
+Version: 1.0.04
+*/
+
+audio
+{
+  width: 100%;
+}
+
+.aktual
+{
+  text-align: center;
+}
+
+
+ #cal {
+        width:590px;
+        line-height:35px;
+        position:fixed;
+        left:-500px;
+        transition:1s;
+        -webkit-transition:1s; 
+        margin-top: 200px;
+        opacity: 0.5;
+
+      }
+
+      #cal:hover {
+        left:0;
+        opacity: 2;
+      }
+
+      #blo1 {
+        float:left;
+        width:500px;
+      }
+
+      #blo2 {
+        float:left;
+        width:90px;
+      }
+
+      #blok_na_zawartos {
+        background: #2EB4F7;
+        
+        
+      }
+
+      #zawartos {
+        margin:0;
+        padding:5px;
+        height:180px;
+        font-weight:bold;
+
+      }
+
+      
+      #uchwy {
+        padding-left: 5px;
+        font-weight:bold;
+        color:#FFF;
+        background: #007BBE;
+        
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        padding-left: 15px;
+
+      }
+
+      #uchwy:hover {
+        cursor:pointer;
+        
+      }
+
+
+
+.bord
+{
+  border-radius: 3px;
+}
+
+@font-face
+{
+font-family: bebas-neue;
+src:url(fonts/BebasNeue.otf);
+}
+
+html {
+ background: url('telos.jpg');
+ border: solid 8px #425FB2;
+}
+
+body
+{
+    position: relative;
+    background: url('telo.jpg') no-repeat top ;
+    background-size: 100% 50%;
+}
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;}
+
+
+
+/*.klasy*/
+
+.blue
+{
+  background-color: #5BC0DE;
+}
+
+
+.col-md-10
+{
+  background: white;
+  background-repeat: repeat-y;
+  border-radius: 10px;
+
+}
+
+.fb
+{
+  background: url('fb.png');
+  background-size: 100%; 
+  position:fixed;
+  bottom:400px;
+  left:1291px;
+  width:50px;
+  height: 50px;
+  background-color:#DFF;
+}
+
+.green
+{
+  background-color: #5CB85C;
+}
+
+.red
+{
+  background-color: #FF2725;
+}
+
+.gisz 
+{
+  color: #fff;
+  font-size: 25px;
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+
+.jumbotron
+{
+  margin-top: 80px;
+  height: 500px;
+}
+
+.left
+{
+  margin-left: 200px;
+}
+
+.bt
+{
+  border: 0px;
+  color: white;
+  font-weight: bold;
+}
+
+.bt:hover
+{
+ color: #FFFFF;
+}
+
+.orange
+{
+  background-color: #F0AD4E;
+}
+
+.pad
+{
+  padding-top: 50px;
+}
+
+.photo 
+{
+  max-height: 350px;
+  border-radius: 10%;
+}
+
+.photo1 
+{
+  max-height: 350px;
+  max-width: 300px;
+  border-radius: 10%;
+}
+
+.photo2 
+{
+max-width: 100%;
+max-height: 100%;
+
+
+}
+
+
+.photo6
+{
+  width: 250px;
+  height: 350px;
+  border: groove 3px; 
+}
+
+.right 
+{
+  margin-right: 200px;
+}
+
+.row2
+{
+color: #1F3C8F;
+}
+
+.txt1 
+{
+  
+  padding-top: 10px;
+  
+}
+
+.txt2
+{
+  text-align: center;
+  padding-top: 10px;
+  
+  font-size: 50px;
+}
+
+/*nr1*/
+ #pudelko {
+      margin-top: 100px;
+        width:230px;
+        height:320px;
+        margin:0 auto;
+        perspective:700px;
+        -webkit-perspective:700px;
+        background: url('g7.jpg');
+        border: 3px groove;
+        background-size: 110%;
+        background-repeat: no-repeat;
+      }
+
+      #karta {
+        position:relative;
+        width:100%;
+        height:100%;
+        transition:1.5s;
+        -webkit-transition:1.5s;
+        transform-style:preserve-3d;
+        -webkit-transform-style:preserve-3d;
+        transform-origin: 0 50%;
+
+      }
+
+      #pudelko:hover > #karta {
+        transform:rotateY(-50deg);
+        -webkit-transform:rotateY(-50deg);
+      }
+
+      #przod {
+        position:relative;
+        width:100%;
+        height:100%;
+        background:url('przek.jpg') no-repeat;
+        background-size:100%;
+        
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+
+      /*nr2*/
+#pudelko1 {
+      margin-top: 100px;
+        width:205px;
+        height:320px;
+        margin:0 auto;
+        perspective:800px;
+        -webkit-perspective:800px;
+        background: url('g7.jpg');
+        border: 3px groove;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+
+      #karta1 {
+        position:relative;
+        width:100%;
+        height:100%;
+        transition:1.5s;
+        -webkit-transition:1.5s;
+        transform-style:preserve-3d;
+        -webkit-transform-style:preserve-3d;
+        transform-origin: 0 50%;
+
+      }
+
+      #pudelko1:hover > #karta1 {
+        transform:rotateY(-50deg);
+        -webkit-transform:rotateY(-50deg);
+      }
+
+      #przod1 {
+        position:relative;
+        width:100%;
+        height:100%;
+        background:url('krzyz.jpg') no-repeat;
+        background-size:100%;
+        
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+
+/*nr3*/
+      #pudelko2 {
+      margin-top: 100px;
+        width:200px;
+        height:320px;
+        margin:0 auto;
+        perspective:700px;
+        -webkit-perspective:700px;
+        background: url('g7.jpg');
+        border: 3px groove;
+        background-size: 110%;
+        background-repeat: no-repeat;
+      }
+
+      #karta2 {
+        position:relative;
+        width:100%;
+        height:100%;
+        transition:1.5s;
+        -webkit-transition:1.5s;
+        transform-style:preserve-3d;
+        -webkit-transform-style:preserve-3d;
+        transform-origin: 0 50%;
+
+      }
+
+      #pudelko2:hover > #karta2 {
+        transform:rotateY(-50deg);
+        -webkit-transform:rotateY(-50deg);
+      }
+
+      #przod2{
+        position:relative;
+        width:100%;
+        height:100%;
+        background:url('g6.jpg') no-repeat;
+        background-size:100%;
+        box-shadow:0 0 4px 8px #FFF inset;
+        backface-visibility:hidden;
+        -webkit-backface-visibility:hidden;
+      }
+
+/*#id*/
+#tkch 
+{
+    padding-top:110px;
+    height:50%;
+    border-bottom:  2px groove;  
+    
+}
+
+
+
+.down
+{
+  font-family: bebas-neue; 
+  font-size: 50px; 
+  color: #1F3C8F;
+}
+
+
+#warto_przeczytac
+{
+    padding-top:10%;
+    height:500px;
+}
+
+#kontakt
+{
+    padding-top:130px;
+    height:500px;
+}
+
+
+
+#btng
+{
+  float: right;
+  margin-top: 150%;
+  
+}
+
+#aktualnosci 
+{
+    padding-top:6%;
+    height:10%; 
+    margin-bottom: 3%;
+}
+
+#aktual
+{
+  padding-top:10%;
+    height:20%; 
+    
+}
+
+#galeria 
+{
+    padding-top:10%;
+    height:10%; 
+}
+
+
+#linki {
+  padding-top:20%;
+  height:500px;
+}
+
+#start {
+  margin:55px 20px 100px;
+  padding-top: 50px;
+  height:650px;
+
+}
+
+#start1,
+#start2,
+#start3,
+#start4
+{
+ 
+  height: 400px;
+  padding-top: 30px;
+  border-radius: 10px; 
+  text-align: left;
+  padding-left: 10px;
+}
+
+#start1
+{
+   column-count: 2;
+}
+
+
+/*facebook*/
+ #caly {
+        margin-top: 130px;
+        
+        position:fixed;
+        margin-left:0;
+        transition:1s;
+        -webkit-transition:1s; 
+      }
+
+      #caly:hover {
+        margin-left:0.5%;
+        cursor: pointer;
+      }
+
+    
+
+      #uchwyt {
+        background: url('fb.png') ;
+        background-size: 100%;
+        border-radius:0 3px 3px 0;
+        width: 50px;
+        height: 50px;
+        margin-right: -5px;
+
+      }
+
+    
+.bord
+{
+  border-radius: 3px;
+}
+
+
+#animacja {
+      position: relative;
+        bottom: 0px;
+        transition:1s;
+        -webkit-transition:1s; 
+        
+      }
+
+      #animacja:hover {
+        bottom: 10px;
+        cursor: pointer;
+        
+      }
+
+    
+#a1, #a2, #a3, #a4
+{
+  transition:1s;
+  -webkit-transition:1s; 
+  box-shadow: 0px 0px 0px ;
+}
+
+#a1:hover
+{
+  box-shadow: 10px 10px  #5BC0DE;
+
+}
+
+#a2:hover
+{
+  box-shadow: 10px 10px  #F0AD4E;
+}
+
+#a3:hover
+{
+  box-shadow: 10px 10px  #5CB85C;
+}
+
+#a4:hover
+{
+  box-shadow: 10px 10px  #FF2725;
+}
+
+
+
+.foot
+{
+  border-left: 2px black solid;
+  margin-bottom: 30px;
+  margin-left: 600px;
+  
+}
+
+.modal-header,.modal-footer
+{
+  background: #5CB85C;
+  border-radius:3px;
+  height: 70px;
+
+}
+
+
+
+.modal-title 
+{
+  color:#E5FFFF;
+
+}
+
+
+
+
+
+
